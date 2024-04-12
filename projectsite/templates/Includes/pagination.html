@@ -3,7 +3,7 @@
 <div class="card-footer px-0 border-0 d-flex flex-column flex-lg-row align-items-center justify-content—between mt-3"> 
  <nav aria-label="Topics pagination" class="mb-4"> 
    <ul class="pagination"> 
-     {% if page _obj.number > 1 %} 
+    {% if page_obj.number > 1 %} 
      <li class="page-item"> 
        <a class="page-1ink" href="?page=1">First</a> 
      </li> 
@@ -33,7 +33,7 @@
 </li> 
 {% endif %} {% endfor %} {% if page_obj.has_next %} 
 <li class="page—item"> 
-    <a class="page-link" href="?page={{ page_obj.next_page_ number }}">Next</a>
+  <a class="page-link" href="?page={{ page_obj.next_page_number }}">Next</a>
 </li> 
 {% else %} 
 <li class="page-item disabled"> 
