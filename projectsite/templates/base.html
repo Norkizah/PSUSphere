@@ -123,7 +123,7 @@
 									<div class="dropdown-divider"></div>
 									<a class="dropdown-item" href="#"><i class="ti-settings"></i> Account Setting</a>
 									<div class="dropdown-divider"></div>
-									<a class="dropdown-item" href="#"><i class="fa fa-power-off"></i> Logout</a>
+									<a class="dropdown-item" href="{% url 'logout' %}"><i class="fa fa-power-off"></i> Logout</a>
 								</ul>
 								<!-- /.dropdown-user -->
 							</li>
@@ -229,7 +229,8 @@
 							</ul>
 						</nav>
 						<div class="copyright ml-auto">
-							2018, made with <i class="la la-heart heart text-danger"></i> by <a href="http://www.themekita.com">ThemeKita</a>
+							2018, made with <i class="la la-heart heart text-danger"></i> by 
+							<a href="http://www.themekita.com">ThemeKita</a>
 						</div>				
 					</div>
 				</footer>
@@ -278,5 +279,10 @@
     <div class ="content">
         ... {all codes in content div}
     </div>
+
+	<form action="/search" method="GET">
+		<input type="text" name="query" placeholder="Search...">
+		<button type="submit">Search</button>
+	  </form>
 </div>
 </html>
