@@ -30,7 +30,7 @@ class ChartView(ListView):
 
     def LineCountbyMonth(request):
 
-    current_year = datetime.now().year
+     current_year = datetime.now().year
 
     result = {month: 0 for month in range(1, 13)}
 
@@ -51,6 +51,8 @@ class ChartView(ListView):
     result_with_month_names = {
         month_names[int(month)]: count for month, count in result.items()}
 
+def my_function():
+    result_with_month_names = get_result_with_month_names()
     return JsonResponse(result_with_month_names)
 
 def MultilineIncidentTop3Country(request):
@@ -164,7 +166,7 @@ def multipleBarbySeverity(request):
         pass
 
     def PieCountbySeverity(request):
-    query = '''
+     query = '''
     SELECT severity_level, COUNT(*) as count
     FROM fire_incident
     GROUP BY severity_level
