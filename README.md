@@ -1,5 +1,6 @@
 #### Link
-Norkizah.pythonanywhere.com - bugged takes too long to load but all models, faker and crud are working
+''' Norkizah.pythonanywhere.com - bugged % include 'includes/pagination.html' and includes/form dont work in the website 
+but everything works on localhost all models, faker and crud are working '''
 
 # Authors 
 - Norkizah M. Baute 
