@@ -1,3 +1,6 @@
+#### Link
+Norkizah.pythonanywhere.com - bugged takes too long to load but all models, faker and crud are working
+
 # Authors 
 - Norkizah M. Baute 
 - Shervielyn Jane Apolinar 
