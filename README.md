@@ -1,6 +1,6 @@
 ### Link
 ```
-* Norkizah.pythonanywhere.com * - bugged % include 'includes/pagination.html' and includes/form dont work in the website 
+*Norkizah.pythonanywhere.com* - bugged % include 'includes/pagination.html' and includes/form dont work in the website 
 but everything works on localhost all models, log in, faker and crud are working
 ```
 
