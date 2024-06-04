@@ -1,7 +1,7 @@
 ### Link
 
 **psuspherebaute.pythonanywhere.com**
--Bugged in pythonanywhere but all working in localhost
+*Fixed but files are transfered to new repository.*
 
 # Authors 
 - Norkizah M. Baute 
